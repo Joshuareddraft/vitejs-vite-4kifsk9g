@@ -50,11 +50,19 @@ const App = () => {
   // Initial Data (Seed data for the first load)
   const initialPosts = [
     {
+      id: 3, // Use a unique number
+      title: "Transposing Socialism in to 21st Century",
+      date: "FEBRUARY 14, 2026",
+      image: "https://... (your image link)",
+      content: "The core appeals of socialism - fairness, equalty, and puting people before profit - are experiencing an undeniable resurgence. However, the world has moved on significantly since the days of the industrial revolution, and even since the 20th century welfare state revolution. If we are to transpose socialist ideals forward, we have to acknowledge that the blueprint needs an update. This blog will examine and analyse this challenge, and I invite everyone to share their ideas directly with me when they can"
+    },
+    // ... older posts below
+    {
       id: 1,
       title: "Materialism & The Digital Age",
       date: "OCTOBER 24, 2025",
       image: "https://images.unsplash.com/photo-1517523295844-93c6ea62a4d3?q=80&w=2574&auto=format&fit=crop",
-      content: "The translation of labor into code presents a unique paradox for the modern socialist. Where the factory floor provided a tangible site of struggle, the server farm is obscured, often automated, and geographically distributed.<br/><br/>We must ask ourselves: is the alienation experienced by the gig-economy worker distinct from that of the industrial proletariat, or is it merely a shifting of the veil? The digital interface acts as a sanitizing layer, removing the consumer even further from the means of production."
+      content: "The translation of labour into code presents a unique paradox for the modern socialist. Where the factory floor provided a tangible site of struggle, the server farm is obscured, often automated, and geographically distributed.<br/><br/>We must ask ourselves: is the alienation experienced by the gig-economy worker distinct from that of the industrial proletariat, or is it merely a shifting of the veil? The digital interface acts as a sanitising layer, removing the consumer even further from the means of production."
     },
     {
       id: 2,
