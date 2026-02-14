@@ -51,9 +51,9 @@ const App = () => {
   const initialPosts = [
     {
       id: 3, // Use a unique number
-      title: "Transposing Socialism into 21st Century",
+      title: "Transposing Socialism into the 21st Century",
       date: "FEBRUARY 14, 2026",
-      image: "/materialism.png",
+      image: "/materialism2.png",
       content: "The core appeals of socialism - fairness, equality, and putting people before profit - are experiencing an undeniable resurgence. However, the world has moved on significantly since the days of the industrial revolution, and even since the 20th century welfare state revolution. If we are to transpose socialist ideals forward, we have to acknowledge that the blueprint needs an update. This blog will examine and analyse this challenge, and I invite everyone to share their ideas directly with me when they can"
     },
     // ... older posts below
