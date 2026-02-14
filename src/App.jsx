@@ -51,10 +51,10 @@ const App = () => {
   const initialPosts = [
     {
       id: 3, // Use a unique number
-      title: "Transposing Socialism in to 21st Century",
+      title: "Transposing Socialism into 21st Century",
       date: "FEBRUARY 14, 2026",
-      image: "https://... (your image link)",
-      content: "The core appeals of socialism - fairness, equalty, and puting people before profit - are experiencing an undeniable resurgence. However, the world has moved on significantly since the days of the industrial revolution, and even since the 20th century welfare state revolution. If we are to transpose socialist ideals forward, we have to acknowledge that the blueprint needs an update. This blog will examine and analyse this challenge, and I invite everyone to share their ideas directly with me when they can"
+      image: "/materialism.png",
+      content: "The core appeals of socialism - fairness, equality, and putting people before profit - are experiencing an undeniable resurgence. However, the world has moved on significantly since the days of the industrial revolution, and even since the 20th century welfare state revolution. If we are to transpose socialist ideals forward, we have to acknowledge that the blueprint needs an update. This blog will examine and analyse this challenge, and I invite everyone to share their ideas directly with me when they can"
     },
     // ... older posts below
     {
@@ -360,7 +360,7 @@ const App = () => {
               The <span className="text-red-700">Red</span> Draft
             </h1>
             <span className="text-xs font-bold tracking-[0.3em] uppercase mt-1 hidden md:block">
-              21st Century Perspectives
+              21st Century Perspectives on Classic Socialist Theory
             </span>
           </div>
 
