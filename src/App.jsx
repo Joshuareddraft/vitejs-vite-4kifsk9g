@@ -53,7 +53,7 @@ const App = () => {
       id: 3, // Use a unique number
       title: "Transposing Socialism into the 21st Century",
       date: "FEBRUARY 14, 2026",
-      image: "/materialism2.png",
+      image: "/worker1.png",
       content: "The core appeals of socialism - fairness, equality, and putting people before profit - are experiencing an undeniable resurgence. However, the world has moved on significantly since the days of the industrial revolution, and even since the 20th century welfare state revolution. If we are to transpose socialist ideals forward, we have to acknowledge that the blueprint needs an update. This blog will examine and analyse this challenge, and I invite everyone to share their ideas directly with me when they can"
     },
     // ... older posts below
@@ -61,14 +61,14 @@ const App = () => {
       id: 1,
       title: "Materialism & The Digital Age",
       date: "OCTOBER 24, 2025",
-      image: "https://images.unsplash.com/photo-1517523295844-93c6ea62a4d3?q=80&w=2574&auto=format&fit=crop",
+      image: "/worker1",
       content: "The translation of labour into code presents a unique paradox for the modern socialist. Where the factory floor provided a tangible site of struggle, the server farm is obscured, often automated, and geographically distributed.<br/><br/>We must ask ourselves: is the alienation experienced by the gig-economy worker distinct from that of the industrial proletariat, or is it merely a shifting of the veil? The digital interface acts as a sanitising layer, removing the consumer even further from the means of production."
     },
     {
       id: 2,
       title: "Brutalism in Policy",
       date: "SEPTEMBER 12, 2025",
-      image: "https://images.unsplash.com/photo-1486744360530-ca9c5676a002?q=80&w=2602&auto=format&fit=crop",
+      image: "/worker1",
       content: "There is a reason brutalist architecture—often unfairly maligned—was the chosen style of social housing projects and civic centers. It represents an honesty of materials. Concrete does not pretend to be wood; steel does not pretend to be stone.<br/><br/>We require a similar 'Brutalism' in our political rhetoric. The modern neoliberal tendency is to wrap policy in layers of technocratic jargon, softening the blow of austerity with consultant-speak."
     }
   ];
