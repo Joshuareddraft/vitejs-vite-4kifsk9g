@@ -61,14 +61,14 @@ const App = () => {
       id: 1,
       title: "Materialism & The Digital Age",
       date: "OCTOBER 24, 2025",
-      image: "/worker1",
+      image: "/worker1.png",
       content: "The translation of labour into code presents a unique paradox for the modern socialist. Where the factory floor provided a tangible site of struggle, the server farm is obscured, often automated, and geographically distributed.<br/><br/>We must ask ourselves: is the alienation experienced by the gig-economy worker distinct from that of the industrial proletariat, or is it merely a shifting of the veil? The digital interface acts as a sanitising layer, removing the consumer even further from the means of production."
     },
     {
       id: 2,
       title: "Brutalism in Policy",
       date: "SEPTEMBER 12, 2025",
-      image: "/worker1",
+      image: "/worker1.png",
       content: "There is a reason brutalist architecture—often unfairly maligned—was the chosen style of social housing projects and civic centers. It represents an honesty of materials. Concrete does not pretend to be wood; steel does not pretend to be stone.<br/><br/>We require a similar 'Brutalism' in our political rhetoric. The modern neoliberal tendency is to wrap policy in layers of technocratic jargon, softening the blow of austerity with consultant-speak."
     }
   ];
@@ -77,7 +77,7 @@ const App = () => {
   const [posts, setPosts] = useState(() => {
     // Check if we are in a browser environment
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('red_draft_posts');
+      const saved = localStorage.getItem('red_draft_posts_v2');
       return saved ? JSON.parse(saved) : initialPosts;
     }
     return initialPosts;
@@ -89,7 +89,7 @@ const App = () => {
 
   // --- EFFECTS ---
   useEffect(() => {
-    localStorage.setItem('red_draft_posts', JSON.stringify(posts));
+    localStorage.setItem('red_draft_posts_v2', JSON.stringify(posts));
   }, [posts]);
 
   useEffect(() => {
